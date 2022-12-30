@@ -1,0 +1,8 @@
+﻿#page {
+    background-image: url("../img/cake.jpg");
+    width: 1500px;
+    height: 700px;
+    padding: 0px;
+    background-size: cover;
+    position: relative;
+}
