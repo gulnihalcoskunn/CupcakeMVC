@@ -13,9 +13,10 @@
     <div id="navigation">
         <p class="cupcake"><a style="vertical-align: baseline;font-size: 135px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; position: relative;" asp-area="" asp-controller="Home" asp-action="Index">CUPCAKE.</a></p>
         <ul id="nav">
-            <li><a asp-area="" asp-controller="Dessert" asp-action="Index">DESSERTS</a></li>
-            <li><a asp-area="" asp-controller="Drinks" asp-action="Index">BEVERAGES </a></li>
-            <li><a asp-area="" asp-controller="DoubleMenu" asp-action="Index">PROMOTIONAL MENU </a></li>
+            <li><a asp-area="" asp-controller="Dessert" asp-action="Index">Desserts</a></li>
+            <li><a asp-area="" asp-controller="Drinks" asp-action="Index">Drinks </a></li>
+            <li><a asp-area="" asp-controller="DoubleMenu" asp-action="Index">Promotional Menus </a></li>
+            <li><a asp-area="" asp-controller="Comment" asp-action="Index">Comments </a></li>
         </ul>
 
     </div>
@@ -25,11 +26,11 @@
         @RenderBody()
     </div>
 
-    <div id="footer">
+    @*<div id="footer">
 
         <p>Copyright 2023 by SUGAR & SPYKE </p>
 
-    </div>
+    </div>*@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

@@ -10,7 +10,7 @@
         <table class="table">
             <thead>
                 <tr class="text-center">
-                    <th>DessertPhotoURL</th>
+                    <th>Desserts</th>
                     <th>Name</th>
                     <th>Description</th>
                     <th>Price</th>
@@ -40,9 +40,4 @@
 
     </div>
 </div>
-
-<div style="position:fixed; right:25px; bottom:25px;" class="text-white">
-    <a asp-controller="Dessert" asp-action="Create" class="btn btn-success">
-        <i class="bi bi-plus-circle"></i>Add new
-    </a>
-</div>
+<partial name="~/Views/Shared/_addPartial.cshtml">

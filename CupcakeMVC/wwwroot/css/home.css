@@ -1,8 +1,24 @@
 ﻿#page {
     background-image: url("../img/cake.jpg");
+    background-color:lightpink;
     width: 1500px;
     height: 700px;
     padding: 0px;
     background-size: cover;
     position: relative;
+}
+/*.page {
+    background-color: pink;
+}*/
+.component{
+    text-align:center;
+    justify-content:end;
+    align-items:center;
+}
+.link-grey {
+    color: #aaa;
+}
+
+.link-grey:hover {
+    color: #00913b;
 }
